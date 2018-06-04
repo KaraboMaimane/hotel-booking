@@ -1,0 +1,170 @@
+<div class="headingText text-center">
+    <h1>Our suites</h1>
+    <h4>Take your pick of our world class quality suites we have on offer!</h4><br>
+</div>
+
+<div class="container">
+<ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">All Hotels</a></li>
+    <li role="presentation"><a href="#">5 Star</a></li>
+    <li role="presentation"><a href="#">Less than 5</a></li>
+</ul><br>
+<div class="media-object-default">
+    <div class="media">
+        <div class="media-left"><a href="#"><img class="media-object" src="assets\Hotel-Suite_05.jpg" alt="hotel suite"></a></div>
+        <div class="media-body">
+        <h4 class="media-heading">Hotel Belladonna</h4>
+        <p class="text-danger">**Special Offer**</p>
+        <p>
+        This is one of our greatest and most exquisite suites that is a 5 star suite with an ensuite, a swimming pool, jacuzzi, 
+        bar with an unlimited tab and more bells and whistle that one would ever desire. A must get for all bachelors looking to 
+        have fun on a vaction or weekend away</p><h4>Price: R1500p/n pp</h4> 
+        <button class="btn btn-success" data-toggle="modal" data-target="#suiteModal1">Book Now!!</button>
+        <!-- Modal -->
+        <div class="modal fade" id="suiteModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title text-center">Hotel Belladonna</h4>
+                <img class="center-block modalImg" src="../../assets/Hotel-Suite_05.jpg" alt="hotel suite">
+                </div>
+                <div class="modal-body">
+                        <p class="text-center">
+                            This is one of our greatest and most exquisite suites that is a 5 star suite with an ensuite, a swimming pool, jacuzzi, 
+                            bar with an unlimited tab and more bells and whistle that one would ever desire. A must get for all bachelors looking to 
+                            have fun on a vaction or weekend away
+                        </p>
+                        <h4>Price: R1500p/n pp</h4>
+                        
+                        <div class="form-group ">
+                            <label for="Name">Name: <input type="text" class="form-control" #name (change)="inputName(name.value)"> </label><br>
+                            <label for="Name">Last Name: <input type="text"  class="form-control" #surname  (change)="inputSurname(surname.value)"> </label><br>
+                            <label for="Name">Id Number: <input type="text" class="form-control" #idNo  (change)="inputIdNo(idNo.value)"> </label><br>
+                            <label for="Name">Booking Period(from: ) <input type="date" class="form-control" #inputDateFrom (change)="inputDateFrom(dateFrom.value)"> </label><br>
+                            <label for="Name">Booking Period(to: ) <input type="date" class="form-control" #inputDateTo (change)="inputDateTo(dateTo.value)"> </label><br>
+                            <label for="Name">Number Of Tenants (Max: 8)<input type="number" min="1" max="8" #tenants class="form-control" (change)="inputTenants(tenants.value)"> </label><br>
+                            <label for="Name">Email: <input type="email" class="form-control" #email  (change)="inputEmail(email.value)"> </label><br>
+                            
+                        </div>
+
+
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" (click)="bookingsPush()">Proceed</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>   
+</div><br><hr>
+<div class="media-object-default">
+    <div class="media">
+        <div class="media-left"><a href="#"><img class="media-object" src="../../assets/5.jpg" alt="hotel suite"></a></div>
+        <div class="media-body">
+        <h4 class="media-heading">Hotel Villa Rosa</h4>
+        <p>
+            This is one of our greatest and most exquisite suites that is a 5 star suite with an ensuite, a swimming pool, 
+            jacuzzi, bar with an unlimited tab and more bells and whistle that one would ever desire. A must get for all bachelors 
+            looking to have fun on a vaction or weekend away</p><h4>Price: R4579p/n pp</h4> 
+            <button class="btn btn-success" data-toggle="modal" data-target="#suiteModal1">Book Now!!</button>
+            <!-- Modal -->
+            <div class="modal fade" id="suiteModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title text-center">Hotel Belladonna</h4>
+                    <img class="center-block modalImg" src="../../assets/5.jpg" alt="hotel suite">
+                    </div>
+                    <div class="modal-body">
+                            <p class="text-center">
+                                This is one of our greatest and most exquisite suites that is a 5 star suite with an ensuite, a swimming pool, jacuzzi, 
+                                bar with an unlimited tab and more bells and whistle that one would ever desire. A must get for all bachelors looking to 
+                                have fun on a vaction or weekend away
+                            </p>
+                            <h4>Price: R1500p/n pp</h4> 
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Proceed</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</div><br><hr>
+<div class="media-object-default">
+    <div class="media">
+        <div class="media-left"><a href="#"><img class="media-object" src="../../assets/hannah-busing-310234-unsplash.jpg" alt="hotel suite"></a></div>
+        <div class="media-body">
+        <h4 class="media-heading">Hotel Mhlangeni</h4><p class="text-danger">*Special Offer*</p>
+        <p>
+        This is one of our greatest and most exquisite suites that is a 5 star suite with an ensuite, a swimming pool, 
+        jacuzzi, bar with an unlimited tab and more bells and whistle that one would ever desire. A must get for all bachelors 
+        looking to have fun on a vaction or weekend away</p><h4>Price: <span class="text-success">  R5000p/n</span> pp  Was: <span class="text-danger">R7500</span></h4> 
+        <button class="btn btn-success" data-toggle="modal" data-target="#suiteModal1">Book Now!!</button>
+        <!-- Modal -->
+        <div class="modal fade" id="suiteModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title text-center">Hotel Belladonna</h4>
+                <img class="center-block modalImg" src="../../assets/hannah-busing-310234-unsplash.jpg" alt="hotel suite">
+                </div>
+                <div class="modal-body">
+                        <p class="text-center">
+                            This is one of our greatest and most exquisite suites that is a 5 star suite with an ensuite, a swimming pool, jacuzzi, 
+                            bar with an unlimited tab and more bells and whistle that one would ever desire. A must get for all bachelors looking to 
+                            have fun on a vaction or weekend away
+                        </p>
+                        <h4>Price: R1500p/n pp</h4> 
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Proceed</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>   
+</div><br><hr>
+<div class="media-object-default">
+    <div class="media">
+        <div class="media-left"><a href="#"><img class="media-object" src="../../assets/justin-schuler-253611-unsplash.jpg" alt="hotel suite"></a></div>
+        <div class="media-body">
+        <h4 class="media-heading">Hotel Khaya</h4>
+        <p>
+            This is one of our greatest and most exquisite suites that is a 5 star suite with an ensuite, a swimming pool, 
+            jacuzzi, bar with an unlimited tab and more bells and whistle that one would ever desire. A must get for all bachelors 
+            looking to have fun on a vaction or weekend away</p><h4>Price: R6000p/n pp</h4> 
+            <button class="btn btn-success" data-toggle="modal" data-target="#suiteModal1">Book Now!!</button>
+            <!-- Modal -->
+            <div class="modal fade" id="suiteModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title text-center">Hotel Belladonna</h4>
+                    <img class="center-block modalImg" src="../../assets/justin-schuler-253611-unsplash.jpg" alt="hotel suite">
+                    </div>
+                    <div class="modal-body">
+                            <p class="text-center">
+                                This is one of our greatest and most exquisite suites that is a 5 star suite with an ensuite, a swimming pool, jacuzzi, 
+                                bar with an unlimited tab and more bells and whistle that one would ever desire. A must get for all bachelors looking to 
+                                have fun on a vaction or weekend away
+                            </p>
+                            <h4>Price: R1500p/n pp</h4> 
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Proceed</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</div>
+</div><br><hr>

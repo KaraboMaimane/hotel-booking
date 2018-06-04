@@ -1,0 +1,10 @@
+.media-object{
+    height: 250px;
+    width: 250px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.modalImg{
+    height: 300px;
+
+}
